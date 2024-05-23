@@ -5,13 +5,13 @@
 class ListDir < Formula
   desc "Listar recursivamente archivos y directorios"
   homepage "https://github.com/drossan/list-dir-go"
-  version "0.0.2"
+  version "0.0.3"
   depends_on :macos
 
-  url "https://github.com/drossan/list-dir-go/releases/download/v0.0.2/list-dir-go_0.0.2_darwin_all.tar.gz"
-  sha256 "a608c7ddfec91665d761d6f2a2b8f5e0f0e3f309457fa318cdc391e4d9d737ae"
+  url "https://github.com/drossan/list-dir-go/releases/download/v0.0.3/list-dir-go_0.0.3_darwin_all.tar.gz"
+  sha256 "9dac06f1a4297e34849530113143c68a374442ce8011edbdc922ea225877b332"
 
   def install
-    bin.install "server-cx"
+    bin.install "list-dir"
   end
 end
